@@ -1,30 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace pointmatcher.net
+﻿namespace pointmatcher.net
 {   
     public struct EuclideanTransform
     {
-        public Quaternion rotation;
-        public Vector3 translation;
+        public System.Numerics.Quaternion rotation;
+        public System.Numerics.Vector3 translation;
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public Vector3 Apply(Vector3 v)
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        public System.Numerics.Vector3 Apply(System.Numerics.Vector3 v)
         {
-            return Vector3.Transform(v, this.rotation) + this.translation;
+            return System.Numerics.Vector3.Transform(v, this.rotation) + this.translation;
         }
 
         public EuclideanTransform Inverse()
         {
             EuclideanTransform result;
-            // the rotation is the opposite of the applied rotation
-            result.rotation = Quaternion.Conjugate(this.rotation);
-            result.translation = Vector3.Transform(-1 * this.translation, result.rotation);
+            result.rotation = System.Numerics.Quaternion.Conjugate(this.rotation);
+            result.translation = System.Numerics.Vector3.Transform(-1 * this.translation, result.rotation);
             return result;
         }
 
@@ -39,7 +30,7 @@ namespace pointmatcher.net
         {
             EuclideanTransform result;
             result.rotation = e1.rotation * e2.rotation;
-            result.translation = Vector3.Transform(e2.translation, e1.rotation) + e1.translation;
+            result.translation = System.Numerics.Vector3.Transform(e2.translation, e1.rotation) + e1.translation;
             return result;
         }
 
@@ -49,8 +40,8 @@ namespace pointmatcher.net
             {
                 return new EuclideanTransform
                 {
-                    translation = new Vector3(),
-                    rotation = Quaternion.Identity
+                    translation = new System.Numerics.Vector3(),
+                    rotation = System.Numerics.Quaternion.Identity
                 };
             }
         }
