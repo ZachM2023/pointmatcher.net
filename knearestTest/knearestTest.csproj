@@ -17,11 +17,6 @@
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
     <TargetFrameworkProfile />
-<<<<<<< HEAD
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
-=======
->>>>>>> 9915801dad864d086cf27cf806d6678ef5e3123d
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,6 +44,9 @@
       <HintPath>..\packages\MathNet.Numerics.2.6.2\lib\net40\MathNet.Numerics.IO.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\packages\System.Numerics.Vectors.1.1.6-beta\lib\portable-net45+win8\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -71,9 +69,6 @@
       <Project>{9407c285-5eb2-444c-9441-0850aff94ae6}</Project>
       <Name>knearest</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
@@ -102,11 +97,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <Import Project="..\packages\StrongNamer.0.2.5\build\StrongNamer.targets" Condition="Exists('..\packages\StrongNamer.0.2.5\build\StrongNamer.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\StrongNamer.0.2.5\build\StrongNamer.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\StrongNamer.0.2.5\build\StrongNamer.targets'))" />
-  </Target>
 </Project>

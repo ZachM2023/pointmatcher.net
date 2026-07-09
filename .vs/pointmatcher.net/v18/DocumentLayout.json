@@ -1,98 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\",
+  "WorkspaceRootPath": "C:\\Zach\u0027s Stuff\\ClowWorks\\pointmatcher.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\pointmatcher.net.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pointmatcher.net\\pointmatcher.net.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\KdTreeMatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pointmatcher.net\\KdTreeMatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\ErrorMinimizers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Zach\u0027s Stuff\\ClowWorks\\pointmatcher.net\\pointmatcher.net\\ErrorMinimizers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pointmatcher.net\\ErrorMinimizers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\DataPointsFilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pointmatcher.net\\DataPointsFilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Zach\u0027s Stuff\\pointmatcher.net\\knearestTest\\KnnTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:knearestTest\\KnnTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "pointmatcher.net.csproj",
-              "DocumentMoniker": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\pointmatcher.net.csproj",
-              "RelativeDocumentMoniker": "pointmatcher.net\\pointmatcher.net.csproj",
-              "ToolTip": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\pointmatcher.net.csproj*",
-              "RelativeToolTip": "pointmatcher.net\\pointmatcher.net.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-09T12:35:00.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KdTreeMatcher.cs",
-              "DocumentMoniker": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\KdTreeMatcher.cs",
-              "RelativeDocumentMoniker": "pointmatcher.net\\KdTreeMatcher.cs",
-              "ToolTip": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\KdTreeMatcher.cs",
-              "RelativeToolTip": "pointmatcher.net\\KdTreeMatcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:34:33.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ErrorMinimizers.cs",
-              "DocumentMoniker": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\ErrorMinimizers.cs",
+              "DocumentMoniker": "C:\\Zach\u0027s Stuff\\ClowWorks\\pointmatcher.net\\pointmatcher.net\\ErrorMinimizers.cs",
               "RelativeDocumentMoniker": "pointmatcher.net\\ErrorMinimizers.cs",
-              "ToolTip": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\ErrorMinimizers.cs",
+              "ToolTip": "C:\\Zach\u0027s Stuff\\ClowWorks\\pointmatcher.net\\pointmatcher.net\\ErrorMinimizers.cs",
               "RelativeToolTip": "pointmatcher.net\\ErrorMinimizers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:34:33.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataPointsFilters.cs",
-              "DocumentMoniker": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\DataPointsFilters.cs",
-              "RelativeDocumentMoniker": "pointmatcher.net\\DataPointsFilters.cs",
-              "ToolTip": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\pointmatcher.net\\DataPointsFilters.cs",
-              "RelativeToolTip": "pointmatcher.net\\DataPointsFilters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:34:33.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KnnTest.cs",
-              "DocumentMoniker": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\knearestTest\\KnnTest.cs",
-              "RelativeDocumentMoniker": "knearestTest\\KnnTest.cs",
-              "ToolTip": "C:\\Zach\u0027s Stuff\\pointmatcher.net\\knearestTest\\KnnTest.cs",
-              "RelativeToolTip": "knearestTest\\KnnTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:34:33.925Z"
+              "WhenOpened": "2026-06-26T14:11:24.799Z",
+              "EditorCaption": ""
             }
           ]
         }
